@@ -1,0 +1,84 @@
+// Base
+$profiteam-black: #08090d;
+$profiteam-surface: #101219;
+$profiteam-white: #f5f5f7;
+$profiteam-gray: #a5a7b0;
+$profiteam-purple: #9b6cff;
+
+// Backgrounds
+$color-bg: #08090d;
+$color-bg-secondary: #0d0f14;
+$color-bg-tertiary: #12141b;
+
+$color-surface: #101219;
+$color-surface-hover: #151822;
+$color-surface-light: #1a1d27;
+
+// Borders
+$color-border: #242733;
+$color-border-light: #303442;
+$color-border-accent: #7c4dff;
+
+// Text
+$color-text-primary: #f5f5f7;
+$color-text-secondary: #a5a7b0;
+$color-text-muted: #6f727d;
+$color-text-dark: #08090d;
+
+// Primary
+$color-primary: #9b6cff;
+$color-primary-light: #c09cff;
+$color-primary-dark: #7447e8;
+
+// Accent
+$color-accent: #8155ff;
+$color-accent-secondary: #b066ff;
+
+// States
+$color-success: #58d68d;
+$color-warning: #f5b942;
+$color-error: #ff6262;
+
+// Inputs
+$color-input-bg: #171522;
+$color-input-bg-hover: #1d1a2b;
+$color-input-border: #2d2940;
+$color-input-placeholder: #777382;
+
+// Overlay
+$color-overlay: rgba(0, 0, 0, 0.6);
+
+// Shadows
+$shadow-card: 0 20px 60px rgba(0, 0, 0, 0.35);
+$shadow-primary: 0 0 40px rgba(155, 108, 255, 0.2);
+$shadow-primary-hover: 0 0 50px rgba(155, 108, 255, 0.35);
+
+$glow-primary: 0 0 60px rgba(155, 108, 255, 0.25);
+$glow-strong: 0 0 100px rgba(155, 108, 255, 0.35);
+
+// Gradients
+$gradient-primary: linear-gradient(
+  135deg,
+  #c09cff 0%,
+  #9b6cff 45%,
+  #7447e8 100%
+);
+
+$gradient-primary-hover: linear-gradient(
+  135deg,
+  #cdb2ff 0%,
+  #a978ff 45%,
+  #8155ff 100%
+);
+
+$gradient-section: radial-gradient(
+  circle at center,
+  rgba(130, 82, 255, 0.12) 0%,
+  rgba(8, 9, 13, 0) 65%
+);
+
+$gradient-form: linear-gradient(
+  120deg,
+  rgba(128, 79, 255, 0.16),
+  rgba(81, 48, 136, 0.08)
+);

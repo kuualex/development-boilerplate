@@ -1,0 +1,67 @@
+@use "./variables" as v;
+
+:root {
+  // Base
+  --profiteam-black: #{v.$profiteam-black};
+  --profiteam-surface: #{v.$profiteam-surface};
+  --profiteam-white: #{v.$profiteam-white};
+  --profiteam-gray: #{v.$profiteam-gray};
+  --profiteam-purple: #{v.$profiteam-purple};
+
+  // Backgrounds
+  --color-bg: #{v.$color-bg};
+  --color-bg-secondary: #{v.$color-bg-secondary};
+  --color-bg-tertiary: #{v.$color-bg-tertiary};
+
+  --color-surface: #{v.$color-surface};
+  --color-surface-hover: #{v.$color-surface-hover};
+  --color-surface-light: #{v.$color-surface-light};
+
+  // Borders
+  --color-border: #{v.$color-border};
+  --color-border-light: #{v.$color-border-light};
+  --color-border-accent: #{v.$color-border-accent};
+
+  // Text
+  --color-text-primary: #{v.$color-text-primary};
+  --color-text-secondary: #{v.$color-text-secondary};
+  --color-text-muted: #{v.$color-text-muted};
+  --color-text-dark: #{v.$color-text-dark};
+
+  // Primary
+  --color-primary: #{v.$color-primary};
+  --color-primary-light: #{v.$color-primary-light};
+  --color-primary-dark: #{v.$color-primary-dark};
+
+  // Accent
+  --color-accent: #{v.$color-accent};
+  --color-accent-secondary: #{v.$color-accent-secondary};
+
+  // States
+  --color-success: #{v.$color-success};
+  --color-warning: #{v.$color-warning};
+  --color-error: #{v.$color-error};
+
+  // Inputs
+  --color-input-bg: #{v.$color-input-bg};
+  --color-input-bg-hover: #{v.$color-input-bg-hover};
+  --color-input-border: #{v.$color-input-border};
+  --color-input-placeholder: #{v.$color-input-placeholder};
+
+  // Overlay
+  --color-overlay: #{v.$color-overlay};
+
+  // Shadows
+  --shadow-card: #{v.$shadow-card};
+  --shadow-primary: #{v.$shadow-primary};
+  --shadow-primary-hover: #{v.$shadow-primary-hover};
+
+  --glow-primary: #{v.$glow-primary};
+  --glow-strong: #{v.$glow-strong};
+
+  // Gradients
+  --gradient-primary: #{v.$gradient-primary};
+  --gradient-primary-hover: #{v.$gradient-primary-hover};
+  --gradient-section: #{v.$gradient-section};
+  --gradient-form: #{v.$gradient-form};
+}
